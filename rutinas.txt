@@ -1,0 +1,154 @@
+💪 1. Sección: Brazos (brazos)
+🛠️ Antebrazo (AntebrazoView.vue)
+1. Curl de Antebrazo con Barra (Palmas Arriba)
+Descripción: Ejercicio de aislamiento enfocado en los flexores del antebrazo, realizado apoyando los brazos en un banco plano.
+
+Técnica Correcta: Apoya los antebrazos en el banco dejando las muñecas libres por fuera. Baja la barra permitiendo que ruede ligeramente por tus dedos y luego cierra la mano flexionando la muñeca por completo hacia arriba.
+
+Tip: No levantes los codos ni los antebrazos del banco; todo el esfuerzo debe venir estrictamente de la articulación de la muñeca.
+
+2. Paseo del Granjero (Farmer's Walk)
+Descripción: Ejercicio funcional y de fuerza general que revienta el agarre y la resistencia isométrica del antebrazo.
+
+Técnica Correcta: Sostén dos mancuernas pesadas a los costados, mantén la espalda completamente erguida, los hombros hacia atrás (retraídos) y camina con pasos cortos y firmes.
+
+Tip: No dejes que los hombros se caigan hacia adelante; mantén el abdomen contraído para proteger la zona lumbar durante la caminata.
+
+💥 Bíceps (BicepsView.vue)
+3. Curl de Bíceps Alterno con Mancuernas
+Descripción: El ejercicio rey para construir los bíceps de forma simétrica trabajando cada brazo de manera independiente.
+
+Técnica Correcta: Empieza con las mancuernas a los lados y las palmas mirándose entre sí. A medida que subes el peso, gira la muñeca (supinación) para que la palma mire hacia arriba al final del movimiento.
+
+Tip: Controla la bajada (fase excéntrica) y evita balancear el cuerpo hacia atrás para darte impulso.
+
+4. Curl de Bíceps en Banco Predicador
+Descripción: Ejercicio excelente para aislar el bíceps y eliminar por completo cualquier posibilidad de hacer trampa con el cuerpo.
+
+Técnica Correcta: Apoya bien los brazos en la almohadilla inclinada del banco. Baja la barra EZ de forma controlada hasta estirar casi por completo el brazo y vuelve a subir contrayendo con fuerza.
+
+Tip: No extiendas los codos al 100% bruscamente abajo para evitar lesiones en los tendones; mantén siempre una mínima tensión.
+
+⚡ Tríceps (TricepsView.vue)
+5. Extensión de Tríceps en Polea Alta
+Descripción: Ejercicio clásico en polea enfocado en la cabeza lateral y medial del tríceps.
+
+Técnica Correcta: Colócate frente a la polea, pega los codos firmemente a los costados del cuerpo y empuja la barra o cuerda hacia el piso hasta extender los brazos por completo.
+
+Tip: Los codos deben actuar como bisagras fijas; si se mueven hacia adelante o hacia arriba, estás metiendo el hombro en el ejercicio.
+
+6. Copa de Tríceps con Mancuerna (A dos manos)
+Descripción: Ejercicio de extensión superior que enfoca el estímulo en la cabeza larga del tríceps.
+
+Técnica Correcta: Siéntate en un banco, sujeta una mancuerna pesada con ambas manos por detrás de la cabeza. Baja el peso flexionando los codos y luego empuja verticalmente hacia el techo.
+
+Tip: Intenta mantener los codos lo más cerrados posible (apuntando hacia el frente, no hacia los lados) para proteger tus articulaciones.
+
+🔺 2. Sección: Espalda (espalda)
+📐 Dorsales (DorsalesView.vue)
+7. Jalón al Pecho en Polea Alta (Lat Pulldown)
+Descripción: El mejor ejercicio mecánico para construir amplitud y lograr la forma en "V" de la espalda.
+
+Técnica Correcta: Toma la barra con un agarre más ancho que tus hombros. Inclina el torso sutilmente hacia atrás y jala la barra directamente hacia la parte superior del pecho, llevando los codos hacia tus costados.
+
+Tip: Imagina que tus manos son simples ganchos y jala con los codos, sintiendo cómo se juntan las escápulas atrás.
+
+8. Remo con Barra de Pie (Barbell Row)
+Descripción: Ejercicio compuesto básico para añadir densidad y grosor a toda la musculatura de la espalda.
+
+Técnica Correcta: Flexiona ligeramente las rodillas e inclina el torso hacia adelante a unos 45 grados manteniendo la espalda recta. Jala la barra directo hacia la zona de tu ombligo.
+
+Tip: Mantén el core (abdomen) bien apretado durante todo el movimiento para estabilizar y proteger la columna.
+
+🔺 Trapecio (TrapecioView.vue)
+9. Encogimiento de Hombros con Mancuernas (Shrugs)
+Descripción: Ejercicio de aislamiento directo para desarrollar la porción superior de los trapecios.
+
+Técnica Correcta: Sostén las mancuernas a los lados y eleva los hombros directamente hacia tus orejas lo más alto posible. Sostén un segundo arriba y baja despacio.
+
+Tip: No hagas círculos con los hombros (rotación); el movimiento debe ser estrictamente vertical (de arriba a abajo) para evitar desgastes articulares.
+
+10. Remo al Mentón con Barra (Upright Row)
+Descripción: Ejercicio que trabaja la parte superior de la espalda en conjunto con los deltoides laterales.
+
+Técnica Correcta: Sostén una barra frente a ti con las manos ligeramente separadas. Jálala verticalmente manteniéndola pegada al cuerpo, elevando los codos por encima del nivel de las manos.
+
+Tip: Sube la barra solo hasta la altura del pecho para no forzar de más el manguito rotador del hombro.
+
+🔥 3. Sección: Pectoral (pectoral)
+📐 Central (CentralView.vue)
+11. Press de Banca Plano con Barra (Bench Press)
+Descripción: El estándar de oro para medir la fuerza y construir la masa del pectoral mayor central.
+
+Técnica Correcta: Acuéstate en el banco, apoya los pies firmemente en el suelo y retrae los hombros. Baja la barra controladamente tocando suavemente la parte media del pecho y empuja hacia arriba sin despegar la espalda.
+
+Tip: Mantén los codos en un ángulo de unos 45 grados respecto a tu cuerpo al bajar; nunca los abras por completo a 90 grados ya que destruirías tus hombros.
+
+12. Aperturas con Mancuernas en Banco Plano (Dumbbell Flyes)
+Descripción: Ejercicio de aislamiento ideal para estirar las fibras del pectoral en el plano horizontal.
+
+Técnica Correcta: Acostado con las mancuernas arriba, abre los brazos hacia los lados en forma de arco manteniendo una ligera flexión constante en los codos, hasta sentir el estiramiento en el pecho.
+
+Tip: No dejes que las mancuernas choquen fuertemente arriba; frena el movimiento un centímetro antes para mantener la tensión muscular.
+
+📉 Inferior (InferiorView.vue)
+13. Fondos en Paralelas (Chest Dips)
+Descripción: Excelente ejercicio de peso corporal enfocado en dar definición a la parte baja del pecho.
+
+Técnica Correcta: Sostente en las barras paralelas, inclina el torso notablemente hacia el frente y flexiona los codos bajando de forma controlada. Empújate hacia arriba extendiendo los brazos sin bloquear los codos.
+
+Tip: Si mantienes el cuerpo completamente vertical, el esfuerzo se irá a los tríceps. Recuerda inclinarte adelante para activar el pecho.
+
+14. Cruce de Poleas Altas (Cable Crossover)
+Descripción: Ejercicio de aislamiento con tensión constante que esculpe la línea inferior y central del pecho.
+
+Técnica Correcta: Colócate en medio de dos poleas altas. Da un paso al frente para ganar estabilidad y junta las manos abajo y adelante tuyo, simulando dar un abrazo.
+
+Tip: Cruza ligeramente una mano sobre otra al final del movimiento para conseguir una contracción máxima en la zona central.
+
+📈 Superior (SuperiorView.vue)
+15. Press de Banca Inclinado con Mancuernas
+Descripción: Enfocado en desarrollar la porción clavicular (la parte alta) del pectoral, dando un aspecto más estético.
+
+Técnica Correcta: En un banco inclinado a unos 30 o 45 grados, empuja las mancuernas verticalmente hacia arriba desde la altura de tus hombros y llévalas hacia el centro sin que choquen.
+
+Tip: Un ángulo mayor a 45 grados pasará todo el esfuerzo a los hombros; mantén el banco en la inclinación justa.
+
+16. Aperturas Inclinadas con Mancuernas
+Descripción: Variante del fly clásico diseñado para aislar e hipertrofiar las fibras superiores del pecho.
+
+Técnica Correcta: En banco inclinado, realiza el movimiento de apertura circular con los codos semiflexionados, buscando un estiramiento profundo pero controlado en la parte alta.
+
+Tip: Concéntrate en juntar tus bíceps contra los lados del pecho al subir para maximizar la contracción del pectoral superior.
+
+🦵 4. Sección: Piernas (piernas)
+📐 Cuádriceps (CuadricepsView.vue)
+17. Sentadilla Libre con Barra (Barbell Squat)
+Descripción: El ejercicio multiarticular rey indiscutible para la fuerza, potencia y masa de todo el tren inferior.
+
+Técnica Correcta: Coloca la barra sobre tus trapecios, separa los pies al ancho de los hombros. Baja empujando la cadera hacia atrás y flexionando las rodillas, manteniendo la espalda recta, hasta romper el paralelo (90 grados).
+
+Tip: Asegúrate de que tus rodillas sigan siempre la misma dirección de la punta de tus pies, evitando que se metan hacia adentro (valgo de rodilla).
+
+18. Prensa de Piernas (Leg Press)
+Descripción: Permite mover grandes cargas de manera segura para aislar y fatigar los cuádriceps de forma masiva.
+
+Técnica Correcta: Apoya bien la espalda en el respaldo de la máquina. Coloca tus pies en la plataforma y destraba los seguros. Baja controladamente flexionando las rodillas hacia tu pecho y empuja sin llegar a bloquear las piernas arriba.
+
+Tip: NUNCA estires ni bloquees las rodillas por completo en la fase más alta; un bloqueo con mucho peso puede causar una hiperextensión o lesión grave.
+
+📉 Pantorrillas (PantorrillasView.vue)
+19. Elevación de Talones de Pie
+Descripción: Ejercicio de aislamiento enfocado en el desarrollo del músculo gastrocnemio (los gemelos).
+
+Técnica Correcta: Apoya la punta de los pies en el escalón o máquina, dejando los talones libres. Baja los talones al máximo para estirar el músculo y luego sube lo más alto que puedas quedando en puntas de pie.
+
+Tip: Sostén la contracción un segundo arriba y baja despacio. Evita rebotar rápido aprovechando la inercia.
+
+20. Elevación de Talones Sentado
+Descripción: Al flexionar la rodilla, este ejercicio aísla principalmente el músculo sóleo, ubicado debajo de los gemelos.
+
+Técnica Correcta: Siéntate en la máquina colocando las almohadillas sobre tus muslos. Realiza la extensión y flexión de tobillo de forma pausada y controlada en todo su rango de movimiento.
+
+Tip: Como el sóleo es un músculo con mayor porcentaje de fibras lentas, responde mucho mejor a repeticiones controladas y tiempos de bajo estrés prolongados.
+

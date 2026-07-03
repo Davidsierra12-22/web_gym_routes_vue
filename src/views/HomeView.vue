@@ -9,8 +9,6 @@
           ambientes inteligentes y rutinas guiadas para cada grupo muscular.
         </p>
         <div class="hero-actions">
-          <q-btn color="orange-7" label="Ver rutinas" class="q-mr-sm" @click="goTo('/brazos/biceps')" />
-          <q-btn outline color="grey-4" label="Explorar músculos" @click="goTo('/pectoral/superior')" />
         </div>
       </div>
 

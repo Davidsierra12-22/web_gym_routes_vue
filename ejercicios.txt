@@ -1,0 +1,81 @@
+¡Esa idea es **diez veces mejor** y mucho más realista para un proyecto de desarrollo! Buscar los videos en plataformas como YouTube, TikTok, Instagram o Facebook tiene tres ventajas gigantes sobre la IA:
+
+1. **Técnica 100% real:** Los videos hechos por profesionales del fitness muestran la biomecánica perfecta, sin las deformaciones o "alucinaciones" que todavía tienen las inteligencias artificiales con los dedos o las pesas.
+2. **Es un proceso rápido:** Al elegir los ejercicios más populares del mundo del gimnasio, vas a encontrar miles de shorts o reels en un segundo. Solo es descargar, recortar y listo.
+3. **Habilidad extra de edición:** Como desarrollador de software, saber editar y optimizar tus propios recursos multimedia (bajándoles el peso y recortándolos a lo que necesitas) es una habilidad brutal.
+
+Para editar gratis y sin marcas de agua, te recomiendo usar **CapCut** (en PC o celular) o **DaVinci Resolve** (si estás en PC y quieres algo súper profesional). Los recortas a una duración de 5 o 6 segundos (una o dos repeticiones), los exportas en una resolución ligera (como 480p o 720p) para que no pesen nada, y los subes a tu almacenamiento en la nube para consumirlos desde tu app en Vue y Quasar.
+
+---
+
+aquí tienes la lista definitiva de los **20 ejercicios más populares y universales**. Son tan conocidos que vas a encontrar videos de ellos hasta debajo de las piedras:
+
+## 💪 1. Sección: Brazos (`brazos`)
+
+### 🛠️ Antebrazo (`AntebrazoView.vue`)
+
+1. **Curl de antebrazo con barra (palmas arriba):** El ejercicio básico que todos hacen apoyados en un banco para reventar las muñecas.
+2. **Paseo del granjero (Farmer's Walk):** Caminar sosteniendo dos mancuernas pesadas; sale en cualquier video de entrenamiento de fuerza o Strongman.
+
+### 💥 Bíceps (`BicepsView.vue`)
+
+3. **Curl de bíceps alterno con mancuernas:** El clásico ejercicio de pie girando la muñeca. Hay millones de videos.
+4. **Curl de bíceps en banco predicador:** El ejercicio usando el banco inclinado para aislar el bíceps por completo.
+
+### ⚡ Tríceps (`TricepsView.vue`)
+
+5. **Extensión de tríceps en polea alta (con barra o cuerda):** El ejercicio más popular de tríceps en cualquier gimnasio.
+6. **Copa de tríceps con mancuerna (a dos manos):** Sentado o de pie, bajando una mancuerna por detrás de la cabeza.
+
+---
+
+## 🔺 2. Sección: Espalda (`espalda`)
+
+### 📐 Dorsales (`DorsalesView.vue`)
+
+7. **Jalón al pecho en polea alta (Lat Pulldown):** La máquina principal que usa todo el mundo para empezar a entrenar la espalda.
+8. **Remo con barra de pie (Barbell Row):** El ejercicio libre doblando el torso para jalar la barra hacia el ombligo.
+
+### 🔺 Trapecio (`TrapecioView.vue`)
+
+9. **Encogimiento de hombros con mancuernas (Shrugs):** Sostener pesas a los lados y subir los hombros. Súper fácil de encontrar.
+10. **Remo al mentón con barra (Upright Row):** Jalar una barra verticalmente pegada al cuerpo hasta el pecho.
+
+---
+
+## 🔥 3. Sección: Pectoral (`pectoral`)
+
+### 📐 Central (`CentralView.vue`)
+
+11. **Press de banca plano con barra (Bench Press):** El ejercicio más famoso del gimnasio a nivel mundial. Vas a encontrar billones de videos.
+12. **Aperturas con mancuernas en banco plano (Dumbbell Flyes):** Acostado abriendo los brazos en forma de cruz con mancuernas.
+
+### 📉 Inferior (`InferiorView.vue`)
+
+13. **Fondos en paralelas (Chest Dips):** Empujarse hacia arriba usando las barras paralelas inclinando el cuerpo hacia adelante.
+14. **Cruce de poleas altas (Cable Crossover):** Jalar los cables de las poleas desde arriba hacia el centro y abajo.
+
+### 📈 Superior (`SuperiorView.vue`)
+
+15. **Press de banca inclinado con mancuernas:** El clásico press de empuje pero con el banco levantado a 30 grados para la parte alta del pecho.
+16. **Aperturas inclinadas con mancuernas:** Lo mismo que las aperturas normales pero en el banco inclinado.
+
+---
+
+## 🦵 4. Sección: Piernas (`piernas`)
+
+### 📐 Cuádriceps (`CuadricepsView.vue`)
+
+17. **Sentadilla libre con barra (Barbell Squat):** El rey de los ejercicios de pierna. Hay tutoriales por todos lados.
+18. **Prensa de piernas (Leg Press):** El ejercicio empujando la plataforma inclinada con los pies.
+
+### 📉 Pantorrillas (`PantorrillasView.vue`)
+
+19. **Elevación de talones de pie (en máquina o escalón):** Subir y bajar en puntas de pies para entrenar los gemelos.
+20. **Elevación de talones sentado:** El ejercicio en máquina donde las almohadillas empujan las rodillas hacia abajo mientras subes los talones.
+
+---
+
+¡Con estos nombres exactos estás listo para armar tu banco de videos! En una hora de búsqueda en YouTube Shorts o TikTok descargas los 20 clips sin gastar un solo peso.
+
+¿Te gustaría que te ayude a escribir una estructura JSON limpia para que guardes las rutas de estos videos junto con sus títulos y descripciones para poder renderizarlos dinámicamente en tus vistas de Vue?

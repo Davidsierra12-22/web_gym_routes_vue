@@ -40,7 +40,12 @@
           @click="goTo(group.route)"
         >
           <div class="card-image">
-            <div class="image-placeholder">{{ group.imageLabel }}</div>
+            <template v-if="isImageUrl(group.imageLabel)">
+              <img class="card-image-img" :src="group.imageLabel" :alt="group.title" />
+            </template>
+            <template v-else>
+              <div class="image-placeholder">{{ group.imageLabel }}</div>
+            </template>
           </div>
 
           <q-card-section>
@@ -61,29 +66,33 @@ const router = useRouter()
 const muscleGroups = [
   {
     title: 'Brazos',
-    description: 'Fortalece bíceps y tríceps con ejercicios de fuerza y definición.',
-    route: '/brazos/biceps',
-    imageLabel: 'Espacio para imagen de brazos'
+    description: 'Fortalece bíceps, tríceps y antebrazo con ejercicios de fuerza y definición.',
+    route: '/brazos',
+    imageLabel: 'https://static8.depositphotos.com/1049680/1017/i/450/depositphotos_10171107-stock-photo-strong-biceps.jpg'
   },
   {
     title: 'Espalda',
     description: 'Trabaja dorsales y trapecio para una postura más fuerte y amplia.',
-    route: '/espalda/dorsales',
-    imageLabel: 'Espacio para imagen de espalda'
+    route: '/espalda',
+    imageLabel: 'https://static.vecteezy.com/system/resources/previews/016/198/897/large_2x/man-showing-muscular-back-against-conctete-wall-photo.jpg'
   },
   {
     title: 'Pectoral',
     description: 'Desarrolla pecho con rutinas enfocadas en fuerza y volumen.',
-    route: '/pectoral/superior',
-    imageLabel: 'Espacio para imagen de pectoral'
+    route: '/pectoral',
+    imageLabel: 'https://img.magnific.com/foto-gratis/vista-frontal-hombre-camisa-forma-mostrando-pectorales_23-2148700660.jpg?semt=ais_hybrid&w=740&q=80'
   },
   {
     title: 'Piernas',
     description: 'Potencia tus piernas con trabajo de cuádriceps y pantorrillas.',
-    route: '/piernas/cuadriceps',
-    imageLabel: 'Espacio para imagen de piernas'
+    route: '/piernas',
+    imageLabel: 'https://st.depositphotos.com/2389277/4385/i/450/depositphotos_43856599-stock-photo-bodybuilder-legs.jpg'
   }
 ]
+
+function isImageUrl(url) {
+  return typeof url === 'string' && /^https?:\/\/.+\.(jpg|jpeg|png|gif|webp|svg)(\?.*)?$/i.test(url)
+}
 
 function goTo(route) {
   router.push(route)
@@ -211,6 +220,13 @@ function goTo(route) {
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, rgba(255, 151, 0, 0.4), rgba(255, 255, 255, 0.05));
+  overflow: hidden;
+}
+
+.card-image-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .image-placeholder {

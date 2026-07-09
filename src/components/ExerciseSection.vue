@@ -163,6 +163,7 @@ export default {
 .exercise-grid {
   display: grid;
   gap: 18px;
+  grid-template-columns: 1fr;
 }
 
 .exercise-card {
@@ -207,7 +208,8 @@ export default {
 }
 
 .video-placeholder {
-  min-height: 200px;
+  min-height: 0;
+  aspect-ratio: 16 / 9;
   background: rgba(255, 255, 255, 0.06);
   border: 1px dashed rgba(255, 255, 255, 0.14);
   border-radius: 18px;
@@ -219,9 +221,10 @@ export default {
   padding: 16px;
 }
 
-@media (min-width: 900px) {
-  .exercise-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+.video-placeholder iframe,
+.video-placeholder video {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
 }
 </style>

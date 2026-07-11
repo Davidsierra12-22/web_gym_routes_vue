@@ -1,6 +1,10 @@
 <template>
   <q-page class="exercise-page">
     <div class="page-header">
+      <div class="page-actions">
+        <q-btn flat dense color="orange-4" icon="arrow_back" label="Volver" class="back-btn" @click="goBack" />
+        <q-btn flat dense color="orange-4" icon="home" label="Inicio" class="back-btn" @click="goHome" />
+      </div>
       <div>
         <p class="eyebrow">Rutina guiada</p>
         <h1>{{ title }}</h1>
@@ -76,6 +80,12 @@ export default {
     }
   },
   methods: {
+    goBack() {
+      this.$router.back()
+    },
+    goHome() {
+      this.$router.push('/')
+    },
     isYouTube(url) {
       return typeof url === 'string' && /(?:youtube\.com|youtu\.be)/i.test(url)
     },
@@ -145,6 +155,17 @@ export default {
   letter-spacing: 0.2em;
   font-size: 0.8rem;
   color: #ffb347;
+}
+
+.page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.back-btn {
+  align-self: flex-start;
 }
 
 .page-header h1 {

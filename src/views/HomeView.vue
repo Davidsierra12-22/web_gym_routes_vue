@@ -31,28 +31,20 @@
       </div>
 
       <div class="cards-grid">
-        <q-card
+        <div
           v-for="group in muscleGroups"
           :key="group.title"
           class="muscle-card"
-          flat
-          bordered
+          :style="{ backgroundImage: isImageUrl(group.imageLabel) ? `url(${group.imageLabel})` : 'none' }"
           @click="goTo(group.route)"
         >
-          <div class="card-image">
-            <template v-if="isImageUrl(group.imageLabel)">
-              <img class="card-image-img" :src="group.imageLabel" :alt="group.title" />
-            </template>
-            <template v-else>
-              <div class="image-placeholder">{{ group.imageLabel }}</div>
-            </template>
-          </div>
-
-          <q-card-section>
-            <div class="text-h6">{{ group.title }}</div>
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <h3 class="card-title">{{ group.title }}</h3>
             <p class="card-description">{{ group.description }}</p>
-          </q-card-section>
-        </q-card>
+            <q-btn label="DESCUBRIR" class="discover-btn" no-caps flat />
+          </div>
+        </div>
       </div>
     </section>
   </q-page>
@@ -204,48 +196,75 @@ function goTo(route) {
   cursor: pointer;
   border-radius: 20px;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 380px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .muscle-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  filter: brightness(1.05);
 }
 
-.card-image {
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, rgba(255, 151, 0, 0.4), rgba(255, 255, 255, 0.05));
-  overflow: hidden;
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.8) 100%);
+  pointer-events: none;
 }
 
-.card-image-img {
+.card-content {
+  position: relative;
+  z-index: 1;
+  padding: 28px 20px 20px;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
-  display: block;
-  background: rgba(255, 255, 255, 0.04);
-}
-
-.image-placeholder {
   color: #ffffff;
   text-align: center;
-  padding: 12px 16px;
-  border: 1px dashed rgba(255, 255, 255, 0.45);
-  border-radius: 12px;
-  font-size: 0.95rem;
-  max-width: 86%;
+}
+
+.card-title {
+  margin: 0 0 12px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .card-description {
-  color: #c8cde0;
-  margin-top: 8px;
-  min-height: 48px;
+  margin: 0 0 16px;
+  color: #e0e0e0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.discover-btn {
+  background: #ffb347 !important;
+  color: #050816 !important;
+  font-weight: 700;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+}
+
+@media (max-width: 1200px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 1024px) {

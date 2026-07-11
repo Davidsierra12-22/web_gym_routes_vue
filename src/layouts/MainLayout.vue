@@ -2,8 +2,8 @@
   <q-layout view="hHh lpR fFf" class="main-layout">
     <q-header elevated class="main-header">
       <q-toolbar>
-        <q-icon name="fitness_center" size="md" class="q-mr-sm" />
-        <q-toolbar-title>Iron Forge Gym</q-toolbar-title>
+        <q-btn flat dense round icon="fitness_center" class="q-mr-sm" @click="goHome" />
+        <q-toolbar-title class="toolbar-title" role="button" tabindex="0" @click="goHome" @keydown.enter.prevent="goHome" @keydown.space.prevent="goHome">Iron Forge Gym</q-toolbar-title>
       </q-toolbar>
     </q-header>
 
@@ -14,6 +14,13 @@
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+function goHome() {
+  router.push('/')
+}
 </script>
 
 <style scoped>
@@ -25,6 +32,10 @@
 .main-header {
   background: rgba(5, 8, 22, 0.95);
   backdrop-filter: blur(12px);
+}
+
+.toolbar-title {
+  cursor: pointer;
 }
 
 .q-page-container {

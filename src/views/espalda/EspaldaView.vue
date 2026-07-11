@@ -52,20 +52,20 @@ const items = [
     name: 'Dorsales',
     description: 'Rutinas para ampliar la espalda y mejorar la fuerza de tracción.',
     route: '/espalda/dorsales',
-    imageUrl: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4KRGQN9T-cmEcrmoNg-WlYUzkux9r1wkTjGOhb3qRfQ&s=10'
   },
   {
     name: 'Trapecio',
     description: 'Ejercicios para ganar estabilidad y forma en la parte superior de la espalda.',
     route: '/espalda/trapecio',
-    imageUrl: 'https://images.pexels.com/photos/2261485/pexels-photo-2261485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlRuBeTSmskqdJPal7T7KR_WkRX6KOScGy3844d9I_mg&s=10'
   }
 ]
 
 const imageUrl = 'https://static.vecteezy.com/system/resources/previews/016/198/897/large_2x/man-showing-muscular-back-against-conctete-wall-photo.jpg'
 
 function isImageUrl(url) {
-  return typeof url === 'string' && /^https?:\/\/.+\.(jpg|jpeg|png|gif|webp|svg)(\?.*)?$/i.test(url)
+  return typeof url === 'string' && /^https?:\/\//i.test(url)
 }
 
 function goTo(route) {
@@ -131,8 +131,10 @@ function goTo(route) {
 .header-image-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   display: block;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .cards-grid {
@@ -163,8 +165,10 @@ function goTo(route) {
 .menu-card-image-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   display: block;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .menu-card-title {

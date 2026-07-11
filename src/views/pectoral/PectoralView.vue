@@ -52,26 +52,26 @@ const items = [
     name: 'Superior',
     description: 'Rutinas para la parte alta del pecho y mejor desarrollo del pectoral superior.',
     route: '/pectoral/superior',
-    imageUrl: 'https://images.pexels.com/photos/4778420/pexels-photo-4778420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+    imageUrl: 'https://img.magnific.com/foto-gratis/vista-frontal-hombre-camisa-forma-mostrando-pectorales_23-2148700660.jpg?semt=ais_hybrid&w=740&q=80'
   },
   {
     name: 'Central',
     description: 'Ejercicios clásicos para el pecho central y la fuerza general de pectoral.',
     route: '/pectoral/central',
-    imageUrl: 'https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+    imageUrl: 'https://img.magnific.com/foto-gratis/vista-frontal-hombre-camisa-forma-mostrando-pectorales_23-2148700660.jpg?semt=ais_hybrid&w=740&q=80'
   },
   {
     name: 'Inferior',
     description: 'Trabajo para la parte baja del pecho, ideal para volumen y control.',
     route: '/pectoral/inferior',
-    imageUrl: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+    imageUrl: 'https://img.magnific.com/foto-gratis/vista-frontal-hombre-camisa-forma-mostrando-pectorales_23-2148700660.jpg?semt=ais_hybrid&w=740&q=80'
   }
 ]
 
 const imageUrl = 'https://img.magnific.com/foto-gratis/vista-frontal-hombre-camisa-forma-mostrando-pectorales_23-2148700660.jpg?semt=ais_hybrid&w=740&q=80'
 
 function isImageUrl(url) {
-  return typeof url === 'string' && /^https?:\/\/.+\.(jpg|jpeg|png|gif|webp|svg)(\?.*)?$/i.test(url)
+  return typeof url === 'string' && /^https?:\/\//i.test(url)
 }
 
 function goTo(route) {
@@ -137,8 +137,10 @@ function goTo(route) {
 .header-image-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   display: block;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .cards-grid {
@@ -169,8 +171,10 @@ function goTo(route) {
 .menu-card-image-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   display: block;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .menu-card-title {

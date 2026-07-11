@@ -58,20 +58,20 @@ const items = [
     name: 'Tríceps',
     description: 'Ejercicios para definir y potenciar la parte posterior del brazo.',
     route: '/brazos/triceps',
-    imageUrl: 'https://static.vecteezy.com/system/resources/previews/008/312/027/original/3d-rendering-muscular-man-giving-biceps-and-triceps-pose-free-photo.jpg'
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxA-mwbXas4OuDU0J0e5R2Hn1hQoI86Vrh5hnF-w_FLw&s=10'
   },
   {
     name: 'Antebrazo',
     description: 'Movimientos para agarre fuerte y desarrollo del antebrazo.',
     route: '/brazos/antebrazo',
-    imageUrl: 'https://img.freepik.com/foto-gratis/hombre-musculoso-vestido-camisa-sin-mangas-negra_155003-16975.jpg'
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9FAPeTgXti8DXvgM3akinMAFsHAxn7itS0w74V2-uCQ&s=10'
   }
 ]
 
 const imageUrl = 'https://static8.depositphotos.com/1049680/1017/i/450/depositphotos_10171107-stock-photo-strong-biceps.jpg'
 
 function isImageUrl(url) {
-  return typeof url === 'string' && /^https?:\/\/.+\.(jpg|jpeg|png|gif|webp|svg)(\?.*)?$/i.test(url)
+  return typeof url === 'string' && /^https?:\/\//i.test(url)
 }
 
 function goTo(route) {
@@ -137,8 +137,10 @@ function goTo(route) {
 .header-image-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   display: block;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .cards-grid {
@@ -169,8 +171,10 @@ function goTo(route) {
 .menu-card-image-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   display: block;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .menu-card-title {

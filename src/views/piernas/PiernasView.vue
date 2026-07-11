@@ -52,20 +52,20 @@ const items = [
     name: 'Cuádriceps',
     description: 'Ejercicios para potencia y volumen en los músculos de la parte frontal de la pierna.',
     route: '/piernas/cuadriceps',
-    imageUrl: 'https://images.pexels.com/photos/5405189/pexels-photo-5405189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv6DRI0uIkGTgOKaLWQHpWsJunwuJvzOtLrt90YYO2Pw&s=10'
   },
   {
     name: 'Pantorrillas',
     description: 'Rutinas para fuerza, estabilidad y definición en las pantorrillas.',
     route: '/piernas/pantorrillas',
-    imageUrl: 'https://images.pexels.com/photos/7030097/pexels-photo-7030097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBkZmiV-MOCaiETzyQraZNcwyXNDA5GaxpD64tHLJ9-g&s=10'
   }
 ]
 
 const imageUrl = 'https://st.depositphotos.com/2389277/4385/i/450/depositphotos_43856599-stock-photo-bodybuilder-legs.jpg'
 
 function isImageUrl(url) {
-  return typeof url === 'string' && /^https?:\/\/.+\.(jpg|jpeg|png|gif|webp|svg)(\?.*)?$/i.test(url)
+  return typeof url === 'string' && /^https?:\/\//i.test(url)
 }
 
 function goTo(route) {
@@ -131,8 +131,10 @@ function goTo(route) {
 .header-image-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   display: block;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .cards-grid {
@@ -163,8 +165,10 @@ function goTo(route) {
 .menu-card-image-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   display: block;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .menu-card-title {

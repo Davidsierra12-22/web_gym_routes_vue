@@ -91,7 +91,7 @@ const muscleGroups = [
 ]
 
 function isImageUrl(url) {
-  return typeof url === 'string' && /^https?:\/\/.+\.(jpg|jpeg|png|gif|webp|svg)(\?.*)?$/i.test(url)
+  return typeof url === 'string' && /^https?:\/\//i.test(url)
 }
 
 function goTo(route) {
@@ -226,7 +226,10 @@ function goTo(route) {
 .card-image-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .image-placeholder {

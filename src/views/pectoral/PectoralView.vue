@@ -82,19 +82,19 @@ const items = [
     name: 'Superior',
     description: 'Rutinas para la parte alta del pecho y mejor desarrollo del pectoral superior.',
     route: '/pectoral/superior',
-    imageUrl: 'https://img.magnific.com/foto-gratis/vista-frontal-hombre-camisa-forma-mostrando-pectorales_23-2148700660.jpg?semt=ais_hybrid&w=740&q=80'
+    imageUrl: 'https://fitgeneration.es/wp-content/uploads/2024/03/ejercicios-para-pectoral-1-jpg.webp'
   },
   {
     name: 'Central',
     description: 'Ejercicios clásicos para el pecho central y la fuerza general de pectoral.',
     route: '/pectoral/central',
-    imageUrl: 'https://img.magnific.com/foto-gratis/vista-frontal-hombre-camisa-forma-mostrando-pectorales_23-2148700660.jpg?semt=ais_hybrid&w=740&q=80'
+    imageUrl: 'https://hips.hearstapps.com/hmg-prod/images/ejercicio-marcar-linea-media-pectoral-1559297647.jpg?crop=0.5xw:1xh;center,top&resize=1200:*'
   },
   {
     name: 'Inferior',
     description: 'Trabajo para la parte baja del pecho, ideal para volumen y control.',
     route: '/pectoral/inferior',
-    imageUrl: 'https://img.magnific.com/foto-gratis/vista-frontal-hombre-camisa-forma-mostrando-pectorales_23-2148700660.jpg?semt=ais_hybrid&w=740&q=80'
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqVbzaaKwEiN8EeOfruwQq5BzRNDw7Wifr0-MZp8Zgqw&s=10'
   }
 ]
 
